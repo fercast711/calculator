@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap");
+.converter {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #483D8B;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.calculate {
+  width: 400px;
 }
+.calculate .card {
+  background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+.calculate .card .card-title {
+  margin-top: 15px;
+  font-family: "Inconsolata", monospace;
+  color: aliceblue;
+}
+.calculate .card #boton-main {
+  display: flex;
+  justify-content: center;
+}
+.calculate .card #boton-main button {
+  width: 300px;
+}
+.calculate .card hr {
+  color: aliceblue;
+}
+
+/*# sourceMappingURL=index.css.map */

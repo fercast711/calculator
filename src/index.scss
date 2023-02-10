@@ -1,0 +1,35 @@
+@import "./variables";
+
+.converter{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-back;
+}
+.calculate{
+    width: 400px; 
+    .card{
+        background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+        .card-title{
+            margin-top: 15px;
+            font-family: $font-head;
+            color: $color-white;
+        }
+        #boton-main{
+            display: flex;
+            justify-content: center;
+            button{
+                width: 300px;
+            }
+        }
+        hr{
+            color: $color-white;
+        }
+    }
+    
+
+}
+
+
+
