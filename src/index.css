@@ -29,4 +29,10 @@
   color: aliceblue;
 }
 
+@media (max-width: 500px) {
+  .calculate {
+    width: 300px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
